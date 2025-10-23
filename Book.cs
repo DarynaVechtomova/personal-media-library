@@ -10,6 +10,6 @@ public class Book : IMediaItem
 
     public void DisplayInfo()
     {
-        Console.WriteLine($"[Книга] '{Title}' - {Author} (2020). Статус: {Status}");
+        Console.WriteLine($"[Книга] '{Title}' - {Author} ({Year}). Статус: {Status}");
     }
 }

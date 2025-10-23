@@ -28,7 +28,7 @@ public class LibraryManager : ILibraryManager
         var itemToRemove = FindItemByTitle(title);
         if (itemToRemove != null)
         {
-          
+            _items.Remove(itemToRemove);
         }
     }
 
